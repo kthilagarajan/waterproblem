@@ -25,7 +25,7 @@ function buildTable() {
 }
 
 function generateOutput() {
-    var USER_INPUT = document.getElementById("input_arr").value.split(",")
+    var USER_INPUT = document.getElementById("input_arr").value.split(",").map(Number)
     buildSVG(USER_INPUT)
 }
 
